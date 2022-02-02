@@ -61,7 +61,8 @@ article figure figcaption  {
  background-color:#000;
  color:#fff;
  padding:.5rem;
- height: 5rem;
+ height: auto;
+
  
     
 }
@@ -106,35 +107,16 @@ article figure figcaption p{text-align: justify;}
     box-shadow: 1px 1px 5px #fff;
     transition:box-shadow  1s;
     
-}
-.sobre:hover{box-shadow: 2px 2px 5px #000;}
-/*AREA DE CONTACTO*/
-
-.contact{
-    display:flex;
-    justify-content:center
-}
-
-.contact > form{ width:50rem;}
-input,textarea{
-    width:100%;
-    padding:.3rem;
-    margin:.2rem;
-    text-transform: uppercase;
-}
-input[type="submit"]{
-    border:none;
-    border-radius:1rem;
-    background-color: rgb(53, 134, 211);
-    color:#fff;
-    cursor:pointer;
-    opacity: .8;
     
 }
-
-input[type="submit"]:hover{
-opacity: 1;
+.sobre img{
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 10rem;
+    box-shadow: 1rem 1rem #000 1rem;
 }
+.sobre:hover{box-shadow: 2px 2px 5px #000;}
+
 
 /*AREA DO RODAPE*/
 
@@ -149,6 +131,17 @@ opacity: 1;
     margin:1rem;
 }
 .redes > img {padding:.5rem; cursor:pointer}
+.outros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.outros > p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
 /*BOTAO VOLTAR AO TOPO*/
 .topo{
     display: flex; 
