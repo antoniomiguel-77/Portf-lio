@@ -109,11 +109,17 @@ article figure figcaption p{text-align: justify;}
     
     
 }
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .sobre img{
     width: 100px;
     margin: 0 auto;
     border-radius: 10rem;
     box-shadow: 1rem 1rem #000 1rem;
+    margin-bottom: 1rem;
 }
 .sobre:hover{box-shadow: 2px 2px 5px #000;}
 
