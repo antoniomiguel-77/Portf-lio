@@ -160,23 +160,23 @@ article figure figcaption p{text-align: justify;}
 /*MIDEA QUERY / BREAKPOINT*/
 @media(max-width:700px){
 
-    .menu li {padding:6px;}
-    .menu a{padding:6px; transition:padding 1s linear 2s}
+    .menu li {padding:6px; }
+    .menu a{padding:6px; transition:padding 1s linear 2s;font-size: 10px;}
     .tecnology{
         width:25rem;
-       margin:auto;
+        margin:auto;
     }
     .tecnology > article{
         background-color: #ddd;
         box-shadow: 1px 1px 5px #fff;
-        width:20rem;
+        width:15rem;
         border-top-left-radius: 15%;
         transition:box-shadow  1s ease-in-out;
         
     }
 
     .sobre {
-        width:25rem;
+        width:24rem;
         margin:auto;
         background-color:#ddd;
         border-radius: 1rem;
@@ -189,7 +189,7 @@ article figure figcaption p{text-align: justify;}
     }
 
     .project > ul{
-        width:25rem; 
+        width:20rem; 
         font-size: 18px;    
      }
 
