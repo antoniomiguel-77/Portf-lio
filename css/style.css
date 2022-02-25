@@ -22,12 +22,7 @@ html{scroll-behavior:smooth}
     align-items: center;
 }
 
-/*MENU DA PAGINA*/
-.menu{display: flex; flex-wrap: wrap;}
-.menu li {padding:10px;}
-.menu a{padding:10px; transition:padding 2s }
-.menu a:hover{background-color: #fff;color:rgb(53, 134, 211); border-radius: .5rem;}
-
+ 
 /*CORPO DA PAGINA*/
 
 .tecnology{
@@ -109,18 +104,11 @@ article figure figcaption p{text-align: justify;}
     
     
 }
-.profile{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ 
+#logo{
+    width: 60px;
 }
-.sobre img{
-    width: 100px;
-    margin: 0 auto;
-    border-radius: 10rem;
-    box-shadow: 1rem 1rem #000 1rem;
-    margin-bottom: 1rem;
-}
+ 
 .sobre:hover{box-shadow: 2px 2px 5px #000;}
 
 

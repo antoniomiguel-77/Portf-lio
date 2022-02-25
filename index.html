@@ -5,120 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/font.min.css">
     <title>Meu portifólio</title>
 </head>
 <body>
+    <nav class="blue " id="topo">
+        <div class="nav-wrapper container">
+          <a href="index.html" class="brand-logo left">
+            <img src="img/dev.png" alt="" id="logo">
+          </a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger right">
+              <i class="fa fa-bars "></i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#tec">Projectos</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#idCont">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#tec">Projectos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#idCont">Contacto</a></li>
+      </ul>
     <!--CONTAINER PRINCIPAL-->
     <main class="container-principal" id="topo">
-        <!--CABECALHO DA PAGINA-->
-    <header class="header">
-        <div>
-            <img src="img/dev.png" alt="">
-            <h5>António Miguel</h5>
-        </div>
-        
-        <nav>
-            <ul class="menu">
-                <li><a href="" >Home</a></li>
-                <li><a href="#tec">Projectos</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#idCont">Contacto</a></li>
-
-
-            </ul>
-        </nav>
-    </header>
-
     <!--TECNOLOGIA MAIS USADAS-->
-    <h2>soft skill</h2>
+    <h2 class="flow-text">Tecnologias que uso</h2>
  <section class="tecnology" >
      
      <article id="article-1">
          <figure>
-             <img src="img/html5.png" alt="logo-html5" title="Hyper Text Markup Language">
-             <figcaption>
-                <p>
-                    HTM é uma linguagem de marcação.
-                    Usada para estruturar a página.
-                    
-                </p>
-             </figcaption>
+             <img src="img/html5.png" alt="logo-html5" title="Hyper Text Markup Language" class="responsive-img">
          </figure>
      </article>
 
      <article id="article-2">
         <figure>
-            <img src="img/css3.png" alt="logo-css3" title="Cascating Style Sheet">
-            <figcaption>
-               <p>
-                   CSS é uma linguagem de estilo.
-                   Usada para dar formato as páginas de internet.
-               </p>
-            </figcaption>
+            <img src="img/css3.png" alt="logo-css3" title="Cascating Style Sheet" class="responsive-img">
         </figure>
     </article>
 
 
  <article id="article-3">
     <figure>
-        <img src="img/php.png" alt="logo-php" title="Hypertext Preprocessor">
-        <figcaption>
-           <p>
-               PHP é uma linguagem de programação open source 
-               que funciona no server-side.
-           </p>
-        </figcaption>
+        <img src="img/php.png" alt="logo-php" title="Hypertext Preprocessor" class="responsive-img">
     </figure>
 </article>
 
 <article id="article-4">
     <figure>
-        <img src="img/js.png" alt="logo-js" title="JavaScript">
-        <figcaption>
-           <p>
-            JavaScript é é uma linguagem de programação interpretada estruturada,
-             de script em alto nível com tipagem dinâmica fraca e multiparadigma
-           </p>
-        </figcaption>
+        <img src="img/js.png" alt="logo-js" title="JavaScript" class="responsive-img">
     </figure>
 </article>
 
 <article id="article-5">
     <figure>
-        <img src="img/sql.png" alt="logo-sql" title="Strutured Query Languagem">
-        <figcaption>
-           <p>
-            O MySQL é um sistema gerenciador de banco de 
-            dados relacional de código aberto usado
-             na maioria das aplicações gratuitas
-             para gerir suas bases de dados.
-           </p>
-        </figcaption>
+        <img src="img/sql.png" alt="logo-sql" title="Strutured Query Languagem" class="responsive-img">
     </figure>
 </article>
 
 <article id="article-6">
     <figure>
-        <img src="img/csharp.png" alt="logo-c#" title="Csharp">
-        <figcaption>
-           <p>
-            C# é uma linguagem de programação, multiparadigma, 
-            de tipagem forte, desenvolvida pela Microsoft como
-             parte da plataforma .NET.
-           </p>
-        </figcaption>
+        <img src="img/csharp.png" alt="logo-c#" title="Csharp" class="responsive-img">
     </figure>
 </article>
  
 </section>
 
 <!--AREA SOBRE-->
-<h2 id="sobre">Sobre min</h2>
+<h2 id="sobre" class="flow-text">Sobre min</h2>
 <section class="sobre">
     <div class="profile">
-        <img src="img/perfil.jpg" alt="">
+        <img src="img/perfil.jpg" alt="Foto" class="responsive-img">
     </div>
-    <p>
+    <p class="">
        António Albino José Miguel, nascido aos 28 de Julho de 1996,
        estudante de Engenharia Informática engressou na Universidade de 
        Belas em 2018, actualmente finalista. 
@@ -126,7 +92,7 @@
 </section>
 
 <!--LISTA DE PROJECTOS FEITOS-->
-<h2 id="tec"> Lista de Projectos</h2>
+<h2 id="tec" class="flow-text"> Lista de Projectos</h2>
 <section class="project" >
     <ul>
         <li><a href="">Site de Tutorias de tecnologia</a></li>
@@ -147,7 +113,7 @@
  
 
     <footer class="footer" id="idCont">
-        <h2>Contactos</h2>
+        <h2 class="flow-text">Contactos</h2>
         <div class="redes">
             <a href="https://mobile.facebook.com/albino.santos.5648"><img src="img/facebook.png" alt=""></a>
             <a href="https://github.com/antoniomiguel-77"><img src="img/github.png" alt=""></a>
@@ -163,5 +129,13 @@
         <p>&copy; Todos direitos reservados</p>
     </footer>
 </main>
+<script src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+<script>
+   $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
+ 
 </body>
 </html>
